@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head> </head>
+
+<body>
+    <div id="crystal-ball"> <button type="button" id="crystalBallNum"> Reset </button> Crystal Ball:<span id="crystal-num"></span>
+    </div>
+    <div class='playerTotal'> Total: <span id='cTotal'></span></div>
+    <div class ='crystal' data-value="first-value">
+        Crystal 1:
+        <span id="crystal1"></span>
+        <button type="button" id="cbtn1" data-value="0"> Crystal 1
+        </button>
+    </div>
+    <div class ='crystal'>
+        Crystal 2:
+        <span id="crystal2"></span>
+        <button type="button" id="cbtn2" data-value="1"> Crystal 2
+        </button>
+    </div>
+    <div class ='crystal'>
+        Crystal 3:
+        <span id="crystal3"></span>
+        <button type="button" id="cbtn3" data-value="2"> Crystal 3
+        </button>
+    </div>
+    <div class ='crystal'>
+        Crystal 4:
+        <span id="crystal4"></span>
+        <button type="button" id="cbtn4" data-value="3"> Crystal 4
+        </button>
+    </div>
+    <div class="player-score">
+        <div class="wins">
+            Wins: <spam id="wins"></spam>
+        </div>
+        <div class="losses">
+            Losses: <span id="losses"></span>
+        </div>
+
+    </div>
+
+    <form class="login-form">
+        User: <input
+          class="login-user-field login-field"
+          type="text"
+          required
+        />
+        Password: <input
+          class="login-pswd-field login-field"
+          type="text"
+          required
+        />
+        <button
+          class="login-submit-btn ghost-btn-light"
+        >
+          Submit
+        </button>
+      </form>
+
+    <script src="RandomNum.js"></script>
+</body>
+
+</html>

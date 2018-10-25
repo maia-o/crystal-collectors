@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header class="header"> </header>
+    <main class="content">
+        <div class="crystal-collector-content">
+            <div class="crystal-banner">Crystal Collector
+            </div>
+            <div class="game-info">
+                You will be given a random number by the crystal ball.<br>
+                There are four crystals below.<br>
+                By clicking on a crystal you will add a specific amount of points to your total score.<br>
+                You win the game by matching your total score to crystal ball's number, you lose the game if your total score goes above that number.<br>
+                The value of each crystal is hidden from you until you click on it.<br>
+                Click the reset button to start over.<br><br>
+                Discover your fate..
+            </div>
+            <div class="crystal-ball"> <span id="crystal-num"></span>
+            </div>
+            <button type="button" id="crystalBallNum"> Reset </button>
+            <div class="player-total">
+                Player Total:
+                <span id='cTotal'></span>
+            </div>
+            <div class="crystal"></div>
+            <div class ='crystal' data-value="first-value">
+                <span id="crystal1"></span>
+                <button type="button" id="cbtn1" data-value="0">
+                </button>
+            </div>
+            <div class ='crystal'>
+                <span id="crystal2"></span>
+                <button type="button" id="cbtn2" data-value="1">
+                </button>
+            </div>
+            <div class ='crystal'>
+                <span id="crystal3"></span>
+                <button type="button" id="cbtn3" data-value="2">
+                </button>
+            </div>
+            <div class ='crystal'>
+                <span id="crystal4"></span>
+                <button type="button" id="cbtn4" data-value="3">
+                </button>
+            </div>
+
+            <div class="score-box">
+                <div class="win">
+                        Wins: <spam id="wins"></spam>
+                    </div>
+                    <div class="lose">
+                        Losses: <span id="losses"></span>
+                    </div>
+                </div>
+        </div>
+    </main>
+    <script type="application/javascript" src="crystal.js"></script>
+</body>
+
+</html>
